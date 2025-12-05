@@ -1,0 +1,31 @@
+.add-application-page {
+  min-height: calc(100vh - 80px);
+  padding: 40px 0;
+}
+
+.add-application-page h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.required {
+  color: #dc3545;
+}
+
+.form-group input.error,
+.form-group select.error {
+  border-color: #dc3545;
+}
+

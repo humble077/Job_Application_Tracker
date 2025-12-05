@@ -1,0 +1,61 @@
+.dashboard-page {
+  min-height: calc(100vh - 80px);
+  padding: 40px 0;
+}
+
+.dashboard-page h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.application-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.application-meta {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.application-date {
+  color: #666;
+  font-size: 14px;
+}
+
+.last-applications h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-applied {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.status-interview-scheduled {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+.status-rejected {
+  background-color: #ffebee;
+  color: #d32f2f;
+}
+
+.status-selected {
+  background-color: #e8f5e9;
+  color: #388e3c;
+}
+
