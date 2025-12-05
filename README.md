@@ -207,13 +207,16 @@ Job Application Tracker/
 ## Screenshots
 
 ### Login Page
+![Login Page](./screenshots/login-page.png)
 The login page features a clean, centered form with email and password inputs. It includes real-time validation with error messages displayed below each field. A helpful hint is provided for testing different user roles.
 
-### Applications Table
-The applications table displays all job applications with columns for company name, job title, job type, status, location, and applied date. It includes search functionality, filters for job type and status, sorting options, and pagination controls. Each row has Edit and Delete action buttons.
-
 ### Dashboard Summary
+![Dashboard](./screenshots/dashboard.png)
 The dashboard shows summary cards with statistics including total applications, applied count, interview scheduled count, selected count, and rejected count. Below the cards, the last 5 applications are displayed in a list format with status badges and dates.
+
+### Applications Table
+![Applications Table](./screenshots/applications-table.png)
+The applications table displays all job applications with columns for company name, job title, job type, status, location, and applied date. It includes search functionality, filters for job type and status, sorting options, and pagination controls. Each row has Edit and Delete action buttons.
 
 ## Future Enhancements
 
